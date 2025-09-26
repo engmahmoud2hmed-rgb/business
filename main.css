@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url(img/business-2.jpg) rgba(0, 0, 0, 0.689);
+  background-size: cover;
+  background-blend-mode: color;
+}
+
+.navbar {
+  width: 75%;
+  height: 62px;
+  margin: auto;
+  padding-top: 1.6%;
+  position: sticky;
+}
+
+.navbar_logo {
+  width: 12%;
+  height: 100%;
+  float: left;
+  margin-left: -3%;
+
+  img {
+    width: 98%;
+    height: 60%;
+  }
+
+}
+
+.navbar_links {
+  margin-right: -11%;
+  width: 60%;
+  height: 100%;
+  float: right;
+  list-style-type: none;
+  position: relative;
+  top: -20%;
+}
+
+.navbar_links ul li {
+  display: inline-block;
+  margin-left: 4%;
+  text-transform: uppercase;
+}
+
+.navbar_links ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.navbar_links ul li button {
+  padding: 12px 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.navbar_links ul li button a {
+  color: black;
+  font-weight: 400;
+}
+
+.text {
+  width: 70%;
+  height: 40%;
+  margin: auto;
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+}
+
+.text h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.text h3 {
+  font-weight: 400;
+  font-size: 20px;
+
+}
+.text button {
+  padding: 15px 28px;
+  border-radius: 8px;
+  background-color: rgb(76, 175, 80);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  color: white;
+  
+}
+
+.text button a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  height: 30vh;
+  margin: auto;
+margin-top: 100px;
+display: flex;
+}
+
+.boxes {
+  width: 31%;
+  height: 100%;
+  margin-left: 2%;
+  display: flex;
+
+}
+.boxes-icon{
+  width:15% ;
+  height: 100%;
+font-size: 30px;
+color: rgb(8, 175, 8);
+margin-top: 10px;
+
+}
+.boxes-content{
+  width: 80%;
+  height: 100%;
+}
+.boxes-content h3{
+  font-weight: 400;
+}
+.boxes-content p{
+  color: gray;
+}
+.services{
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  height: 115vh;
+  overflow: auto;
+
+}
+.services > div{
+  width: 40%;
+  height: 25%;
+  margin: auto;
+  text-align: center;
+margin-top: 6%;
+}
+.services > div h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+
+}
+.services > div p {
+  color: gray;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.9px;}
+  .container2{
+width: 90%;
+height: 66vh;
+margin: auto;
+
+  }
+  .container2 > div{
+    width:29% ;
+    height: 100%;
+   display: inline-block;
+   margin-left: 3%;
+   align-items: center;
+    background-color: white;
+  }
+  .container2 div img{
+    width: 100%;
+    height: auto%
+  }
+  .container2-content{
+      width: 100%;
+      color: gray;
+      padding:0 5%;
+     }
+    .container2-content h2 a{
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: 400;
+    }  
+    .container2-content a{
+      text-decoration: none;
+      color: gray;
+    }  
+    .final{
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+    }
+    .img{
+      width: 37%;
+      float: right;
+      margin-right: 10%;
+      margin-top: 7%;
+      height:75%;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .final-content{
+      width: 40%;
+      height: 60%;
+      margin-left: 10%;
+      margin-top:12%;
+    }
+    .final-content h2{
+      font-size: 29px;
+      font-weight: 400;
+    }
+    .final-content p{
+      color: gray;
+    }
+   .final-content ul{
+    padding-left: 0;
+  
+  list-style-type: none;
+  color: rgb(104, 104, 104);
+  i{
+    color: green;
+    width: 22px;
+    height: 18px;
+    margin-top: 4%;
+  }
+   }
+.final-content button{
+  padding: 12px 20px;
+  background-color:#4caf50;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  color: white;
+  font-size: 11px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 30px;
+}
